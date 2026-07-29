@@ -3,7 +3,7 @@
 
 #### Estudantes: Giovana Gonçalves Silva e Lucas José Campos 
 
-##### Arquivos<br>
+#### Arquivos:<br>
 **Parte 1**<br>
 <ins>extratorEventosFinal.py</ins> -> script para rodar a base de currículos e retirar os eventos de forma "bruta" (em csv)<br>
 **Parte 2**<br>
