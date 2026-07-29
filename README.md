@@ -6,4 +6,4 @@ Arquivos<br>
 **Parte 1**<br>
 extratorEventosFinal.py -> script para rodar a base de currículos e retirar os eventos de forma "bruta" (em csv) <br>
 **Parte 2**<br>
-tratamentoEventosGiovana.py -> código base para rodar tratamentos no arquivo csv final, incluindo normalizações e convenções para melhor leitura dos dados (código feito para teste em pequena escala, <span style="color:red">não está otimizado para a estrutura de milhões de dados que temos</span>)<br>
+tratamentoEventosGiovana.py -> código base para rodar tratamentos no arquivo csv final, incluindo normalizações e convenções para melhor leitura dos dados (código feito para teste em pequena escala, `#0969DA`não está otimizado para a estrutura de milhões de dados que temos)<br>
