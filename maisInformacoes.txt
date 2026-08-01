@@ -1,0 +1,24 @@
+Após usar o extratorEventosFinal.py na base de currículos foi se passando no csv incial (nomeado
+bruto) filtros, sendo eles os seguintes:
+ 
+1. Retirei eventos sem nome e com informações vazias (impossíveis de usar) 
+2. Retirei as duplicatas (linhas exclusivamentes iguais\idênticas) 
+3. Normalização em CIDADE-DO-EVENTO (manter apenas dados antes de sinais de pontuações) 
+4. Filtro final geral (colocar em minúsculo, retirar acentos, retirar pontuações, retirar
+algarismos, retirar espaços extras)
+5. Passei mais uma vez pela retirada das duplicatas
+OBS: após gerar conjuntos, passei eles mais uma vez pela remoção das duplicatas (conjunto 1 
+por exemplo tem mesmos eventos mas com anos diferentes, só diferenciados no conjuto 2)
+
+Conjunto 1: (NOME-DO-EVENTO)
+Conjunto 2: (NOME-DO-EVENTO|ANO-DO-EVENTO)
+Conjunto 3: (NOME-DO-EVENTO|ANO-DO-EVENTO|PAIS-DO-EVENTO)
+Conjunto 4: (NOME-DO-EVENTO|ANO-DO-EVENTO|PAIS-DO-EVENTO|CIDADE-DO-EVENTO)
+
+
+
+
+
+
+https://drive.google.com/drive/folders/1Yrq0idFzcy5Q3fQ1NGtpCHlcFBEjT7x0?usp=sharing
+Drive com os csv's
